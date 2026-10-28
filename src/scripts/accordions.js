@@ -1,0 +1,1 @@
+document.querySelectorAll('.service-detail').forEach(detail=>detail.addEventListener('toggle',()=>{if(detail.open)document.querySelectorAll('.service-detail').forEach(other=>{if(other!==detail)other.open=false})}));
